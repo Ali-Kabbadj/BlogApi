@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {}
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj": {}
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj": {
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj",
         "projectName": "Blog.Presentation",
-        "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -59,6 +59,10 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -80,68 +84,14 @@
         }
       }
     },
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj": {
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Entities\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
-        "projectName": "Service.Contracts",
-        "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
-        "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,11 +108,75 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj"
+              "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj"
               },
-              "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
-                "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj"
+              "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj"
               }
             }
           }
@@ -195,14 +209,14 @@
         }
       }
     },
-    "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
+    "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ali\\Desktop\\BlogApi\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",

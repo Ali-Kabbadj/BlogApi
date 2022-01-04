@@ -8,12 +8,20 @@ namespace Blog.Presentation.Controllers
 {
     [Route("api/categories")]
     [ApiController]
+    [ResponseCache(CacheProfileName = "120SecondsDuration")]
     public class CategoriesController : ControllerBase
     {
         private readonly IServiceManager _service;
         public CategoriesController(IServiceManager service) => _service = service;
 
-        
+        [HttpOptions]
+        public IActionResult GetCompaniesOptions()
+        {
+            Response.Headers.Add("Allow", "GET, OPTIONS, POST,PUT, DELETE");
+            return Ok();
+        }
+
+        [HttpGet(Name = "GetCategories")]
         public async Task<IActionResult> GetCategories()
         {
             var categories = await _service.CategoryService.GetAllCategoriesAsync(trackChanges: false);
@@ -22,7 +30,8 @@ namespace Blog.Presentation.Controllers
 
 
 
-        [HttpGet("{id:guid}", Name = "CategoryById")]
+        [HttpGet("{id}", Name = "CategoryById")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetCategory(Guid id)
         {
             var category = await _service.CategoryService.GetCategoryAsync(id, trackChanges: false);
@@ -30,7 +39,7 @@ namespace Blog.Presentation.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost(Name = "CreateCategory")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateCategory([FromBody] CategoryForCreationDto category)
         {
@@ -72,6 +81,8 @@ namespace Blog.Presentation.Controllers
             await _service.CategoryService.UpdateCategoryAsync(id ,category, trackChanges: true);
             return Ok(category);
         }
+
+
 
     }
 }

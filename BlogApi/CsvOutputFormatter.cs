@@ -22,8 +22,7 @@ namespace Blog
             {
                 return base.CanWriteType(type);
             }
-            return base.CanWriteType(type);
-            //return false;
+            return false;
         }
 
         public override async Task WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)

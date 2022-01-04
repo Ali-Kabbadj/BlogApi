@@ -86,3 +86,4 @@ C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\ref\Blog.dll
 C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\Blog.pdb
 C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\Blog.genruntimeconfig.cache
 c:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+C:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll

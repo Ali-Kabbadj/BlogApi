@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.JsonPatch;
 using Blog.Presentation.ActionFilters;
 using Shared.RequestFeatures;
 using System.Text.Json;
+using Entities.LinkModels;
 
 namespace Blog.Presentation.Controllers
 {
@@ -17,16 +18,23 @@ namespace Blog.Presentation.Controllers
         public ArticlesController(IServiceManager service) => _service = service;
 
 
+      
+
+
         [HttpGet]
+        [HttpHead]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetArticlesInCategory(Guid categoryId,[FromQuery] ArticleParameters articleparams)
         {
-            var pagedResult = await _service.ArticleService.GetAllArticlesAsync(categoryId, articleparams, trackChanges: false);
-            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
-            return Ok(pagedResult.articles);
+
+            var linkParams = new LinkParameters(articleparams, HttpContext);
+            var result = await _service.ArticleService.GetAllArticlesAsync(categoryId,linkParams, trackChanges: false);
+            Response.Headers.Add("X-Pagination",JsonSerializer.Serialize(result.metaData));
+            return result.linkResponse.HasLinks ? Ok(result.linkResponse.LinkedEntities) :Ok(result.linkResponse.ShapedEntities);
 
         }
 
-
+    
         [HttpGet("{id:guid}", Name = "GetArticleInCategory")]
         public async Task<IActionResult> GetArticleInCategory(Guid id, Guid categoryId)
         {

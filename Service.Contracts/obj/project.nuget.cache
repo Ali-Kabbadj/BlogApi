@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "deqDxdC3teBGb74e4hiZoCsf96yAcU7c1mOK2D1RL3+s/TQDkbKT/xhsEO5ykO7t5H8xFPKrCJblqmBpZhC5lg==",
+  "dgSpecHash": "u0xF4FYuokU8tVq8hBIMAmhQLZUO+xVJ7a1BDvTpCR1ACKhkMGCqyloZXgl7G0A1VOMfunGIZrlOJIEwKHcA3g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

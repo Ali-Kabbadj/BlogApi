@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RpBKrvN+WpCilEHqtl5trsBxQt6MOqWFFkuXHHcDr0NOtOebXompoB970EUelFhOrQlUjwPtnVBmOGMTHhkErA==",
+  "dgSpecHash": "kn5YV+hJDhnh9DgZUHA1jYIAhtAmBOC2Bgm66dUjxI8p4nSiRkfm7T8APedCIoZUMHErxbL64AXnFa7m4p9xpA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
@@ -21,6 +21,7 @@
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",

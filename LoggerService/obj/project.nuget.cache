@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BqHAk4vtEYTQfLyUSfZ9cCo9GbwL//hgwJ2m9rpgN7+03lOyPA+4PPvWlXWET64tu18bMBNLwU+vYa5O8gH64A==",
+  "dgSpecHash": "U7XTSVWY+k/3S1/d7kMfll/I31EM1BWDn4+lR354q5eplVaYL/1OaaCEkEVSOh9zEoVVwGrd6ookvSfPUXjbSw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ali\\Desktop\\BlogApi\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
@@ -11,8 +15,11 @@
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\nlog\\5.0.0-rc1\\nlog.5.0.0-rc1.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\nlog.extensions.logging\\5.0.0-rc1\\nlog.extensions.logging.5.0.0-rc1.nupkg.sha512"
+    "C:\\Users\\ali\\.nuget\\packages\\nlog.extensions.logging\\5.0.0-rc1\\nlog.extensions.logging.5.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

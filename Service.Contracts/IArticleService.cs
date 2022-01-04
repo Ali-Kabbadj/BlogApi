@@ -1,12 +1,14 @@
-﻿using Entities.Models;
+﻿using Entities.LinkModels;
+using Entities.Models;
 using Shared.DataTransferObjects;
 using Shared.RequestFeatures;
+using System.Dynamic;
 
 namespace Service.Contracts
 {
     public interface IArticleService
     {
-        Task<(IEnumerable<ArticleDto> articles, MetaData metaData)> GetAllArticlesAsync (Guid categoryId,ArticleParameters articleParameters,bool trackChanges);
+        Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesAsync (Guid categoryId,LinkParameters linkParameters,bool trackChanges);
         Task<ArticleDto> GetArticleAsync(Guid articleId,Guid categoryId , bool trackChanges);
         Task<ArticleDto> CreateArticleForCategoryAsync(Guid categoryId, ArticleForCreationDto articleForCreation, bool trackChanges);
         Task DeleteArticleInCategoryAsync(Guid categoryId ,Guid Id , bool trackChanges);

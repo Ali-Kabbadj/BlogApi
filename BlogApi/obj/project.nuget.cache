@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISYB0N7GlMU475AK7TSwce7hI5BzVRYC0DWeczmp1NBhS4gQChYxMNgFuX5zmsgdi24+pGT8YHXbgvc1rWUASA==",
+  "dgSpecHash": "vZSKz3dRVf2X8LYKRyS0B+CgcFCvM4Tluxz1WwqPV3Km6yQx8uS//PLZfER6iLRcF99fAWJ4xcZ2DeTJ4sy+sw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ali\\Desktop\\BlogApi\\BlogApi\\Blog.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\BlogApi\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -24,6 +24,7 @@
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",

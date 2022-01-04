@@ -8,15 +8,9 @@ using System.Threading.Tasks;
 
 namespace Shared.DataTransferObjects
 {
-    public record ArticleForCreationDto 
+    public record ArticleForCreationDto  : ArticleForManipulationDto
     {
-        [Required(ErrorMessage = "Title is a required field.")]
-        [MaxLength(60, ErrorMessage = "Maximum length for the title is 60 characters.")]
-        public string? Title { get; init; }
-
-        [Required(ErrorMessage = "Summary is a required field.")]
-        [MaxLength(300, ErrorMessage = "Maximum length for the summary is 300 characters.")]
-        public string? Summary { get; init; }
+      
 
     }
 }

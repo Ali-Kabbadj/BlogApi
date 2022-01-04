@@ -21,7 +21,7 @@ namespace Entities.Models
         [MaxLength(300, ErrorMessage = "Maximum length for the summary is 300 characters.")]
         public string? Summary { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
 
         public ICollection<Paragraph>? Paragraphs { get; set; }

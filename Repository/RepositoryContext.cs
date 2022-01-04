@@ -28,6 +28,7 @@ namespace Repository
             .HasOne<Tag>(e => e.Tag)
             .WithMany(p => p.TagArticles);
 
+
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new TagConfiguration());
             modelBuilder.ApplyConfiguration(new ArticleConfiguration());

@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using Blog.Extensions;
 using Blog.Presentation.ActionFilters;
 using Blog.Utility;
@@ -10,7 +11,6 @@ using NLog;
 using Service.DataShaping;
 using Shared.DataTransferObjects;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
@@ -22,9 +22,6 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.ConfigureVersioning();
-builder.Services.ConfigureResponseCaching();
-
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -37,6 +34,17 @@ builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 builder.Services.AddScoped<IDataShaper<ArticleDto>, DataShaper<ArticleDto>>();
 builder.Services.AddScoped<IArticleLinks, ArticleLinks>();
 
+builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
+
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
 
 builder.Services.AddControllers(config =>
 {
@@ -44,11 +52,9 @@ builder.Services.AddControllers(config =>
 	config.ReturnHttpNotAcceptable = true;
 	config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 	config.CacheProfiles.Add("120SecondsDuration", new CacheProfile { Duration = 120 });
-})
-	.AddXmlDataContractSerializerFormatters()
-	.AddCustomCSVFormatter()
-	.AddApplicationPart(typeof(Blog.Presentation.AssemblyReference).Assembly);
-
+}).AddXmlDataContractSerializerFormatters()
+  .AddCustomCSVFormatter()
+  .AddApplicationPart(typeof(Blog.Presentation.AssemblyReference).Assembly);
 
 builder.Services.AddCustomMediaTypes();
 
@@ -67,10 +73,12 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 	ForwardedHeaders = ForwardedHeaders.All
 });
 
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

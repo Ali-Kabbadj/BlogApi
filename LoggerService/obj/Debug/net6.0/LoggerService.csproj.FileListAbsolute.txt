@@ -4,8 +4,10 @@ C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\ref\LoggerService.dl
 C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\LoggerService.pdb
 C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Contracts.dll
 C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Shared.dll
 C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Contracts.pdb
 C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Entities.pdb
+C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Shared.pdb
 C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
 C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\LoggerService.csproj
 C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\LoggerService.dll
 C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
 C:\Users\ali\Desktop\BlogApi\LoggerService\obj\Debug\net6.0\LoggerService.pdb
-C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Shared.dll
-C:\Users\ali\Desktop\BlogApi\LoggerService\bin\Debug\net6.0\Shared.pdb

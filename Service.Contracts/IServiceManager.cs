@@ -11,5 +11,6 @@ namespace Service.Contracts
         IArticleService ArticleService { get; }
         ICategoryService CategoryService { get; }
         ITagService TagService { get; }
+        IAuthenticationService AuthenticationService { get; }
     }
 }

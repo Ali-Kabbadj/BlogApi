@@ -1,5 +1,7 @@
 ﻿using Blog.Presentation.ActionFilters;
 using Blog.Presentation.ModelBinders;
+using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -8,7 +10,6 @@ namespace Blog.Presentation.Controllers
 {
     [Route("api/categories")]
     [ApiController]
-    [ResponseCache(CacheProfileName = "120SecondsDuration")]
     public class CategoriesController : ControllerBase
     {
         private readonly IServiceManager _service;
@@ -22,6 +23,7 @@ namespace Blog.Presentation.Controllers
         }
 
         [HttpGet(Name = "GetCategories")]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetCategories()
         {
             var categories = await _service.CategoryService.GetAllCategoriesAsync(trackChanges: false);
@@ -31,7 +33,8 @@ namespace Blog.Presentation.Controllers
 
 
         [HttpGet("{id}", Name = "CategoryById")]
-        [ResponseCache(Duration = 60)]
+        [HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 60)] 
+        [HttpCacheValidation(MustRevalidate = true)]
         public async Task<IActionResult> GetCategory(Guid id)
         {
             var category = await _service.CategoryService.GetCategoryAsync(id, trackChanges: false);

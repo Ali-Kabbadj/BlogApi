@@ -4,8 +4,10 @@ C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\ref\Repository.dll
 C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Repository.pdb
 C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Contracts.dll
 C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Entities.dll
+C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Shared.dll
 C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Contracts.pdb
 C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Entities.pdb
+C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Shared.pdb
 C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
 C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\Repository.csproj.CopyC
 C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\Repository.dll
 C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\ref\Repository.dll
 C:\Users\ali\Desktop\BlogApi\Repository\obj\Debug\net6.0\Repository.pdb
-C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Shared.dll
-C:\Users\ali\Desktop\BlogApi\Repository\bin\Debug\net6.0\Shared.pdb

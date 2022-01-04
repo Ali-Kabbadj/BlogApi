@@ -34,7 +34,7 @@ namespace Blog
             CreateMap<CategoryForUpdateDto, Category>();
 
            
-
+            CreateMap<UserForRegistrationDto, User>();
 
 
         }

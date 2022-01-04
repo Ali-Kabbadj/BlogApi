@@ -8,17 +8,17 @@ i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\.editorcon
 ++Blog
 i:{00000000-0000-0000-0000-000000000000}:Blog
 ++Connected Services 
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1110
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1164
 ++Dependencies
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1109
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:>937
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:>934
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:>936
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:>938
-i:{f157a345-a513-48e9-beb1-1d094758f721}:>935
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>940
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:>939
-i:{7a05b587-c790-4085-a56d-537f1344c665}:>941
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1163
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:>1156
+i:{f157a345-a513-48e9-beb1-1d094758f721}:>1157
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1161
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:>1160
+i:{7a05b587-c790-4085-a56d-537f1344c665}:>1159
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:>1162
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:>1158
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:>1155
 ++Properties
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\properties\
 ++ContextFactory
@@ -26,12 +26,6 @@ i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\co
 ++Extensions
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\extensions\
-++ExceptionHandlingMiddleware.cs
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\exceptionhandlingmiddleware.cs
-++ExceptionMiddlewareExtensions.cs
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\exceptionmiddlewareextensions.cs
-++ServiceExtensions.cs
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\serviceextensions.cs
 ++internal_logs
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\internal_logs\
 ++Migrations
@@ -39,8 +33,6 @@ i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\mi
 ++Utility
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\utility\
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\extensions\utility\
-++ArticleLinks.cs
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\utility\articlelinks.cs
 ++appsettings.json
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\appsettings.json
 ++CsvOutputFormatter.cs
@@ -52,54 +44,66 @@ i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\nl
 ++Program.cs
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\program.cs
 ++No service dependencies discovered
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1111
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1165
 ++Analyzers
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:analyzers
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:analyzers
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:analyzers
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:analyzers
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:analyzers
 i:{f157a345-a513-48e9-beb1-1d094758f721}:analyzers
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:analyzers
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:analyzers
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:analyzers
 i:{7a05b587-c790-4085-a56d-537f1344c665}:analyzers
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:analyzers
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:analyzers
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:analyzers
 ++Frameworks
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:frameworks
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:frameworks
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:frameworks
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:frameworks
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:frameworks
 i:{f157a345-a513-48e9-beb1-1d094758f721}:frameworks
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:frameworks
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:frameworks
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:frameworks
 i:{7a05b587-c790-4085-a56d-537f1344c665}:frameworks
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:frameworks
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:frameworks
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:frameworks
 ++Packages
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:packages
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:packages
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:packages
 i:{f157a345-a513-48e9-beb1-1d094758f721}:packages
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:packages
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:packages
 i:{7a05b587-c790-4085-a56d-537f1344c665}:packages
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:packages
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:packages
 ++Projects
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:projects
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:projects
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:projects
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:projects
 i:{f157a345-a513-48e9-beb1-1d094758f721}:projects
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:projects
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:projects
 i:{7a05b587-c790-4085-a56d-537f1344c665}:projects
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:projects
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:projects
 ++launchSettings.json
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\properties\launchsettings.json
 ++RepositoryContextFactory.cs
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\contextfactory\repositorycontextfactory.cs
+++ExceptionHandlingMiddleware.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\exceptionhandlingmiddleware.cs
+++ExceptionMiddlewareExtensions.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\exceptionmiddlewareextensions.cs
+++ServiceExtensions.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\extensions\serviceextensions.cs
 ++internallog.txt
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\internal_logs\internallog.txt
 ++20211230044752_InitialData.cs
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\20211230044752_initialdata.cs
+++20220104135005_CreateIdentityTables.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\20220104135005_createidentitytables.cs
+++20220104140321_AddedRolesToDb.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\20220104140321_addedrolestodb.cs
 ++RepositoryContextModelSnapshot.cs
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\repositorycontextmodelsnapshot.cs
+++ArticleLinks.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\utility\articlelinks.cs
 ++appsettings.Development.json
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\appsettings.development.json
 ++appsettings.Production.json
@@ -120,62 +124,75 @@ i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\sdk\6.0.101\sdk
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++System.Text.Json.SourceGeneration
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.AspNetCore.App
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\microsoft.netcore.app
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\contracts\microsoft.netcore.app
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\microsoft.netcore.app
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\microsoft.netcore.app
 i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\microsoft.netcore.app
 i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\microsoft.netcore.app
 i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\microsoft.netcore.app
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\microsoft.netcore.app
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\contracts\microsoft.netcore.app
 i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\users\ali\desktop\blogapi\loggerservice\microsoft.netcore.app
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\microsoft.netcore.app
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\microsoft.netcore.app
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\microsoft.netcore.app
+++AspNetCoreRateLimit (4.0.1)
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1256
 ++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.1)
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1181
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1173
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1255
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1232
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1178
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1254
 ++Microsoft.EntityFrameworkCore.Tools (6.0.1)
-i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1182
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:>1257
 ++Blog.Presentation
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blog.presentation\blog.presentation.csproj
 i:{00000000-0000-0000-0000-000000000000}:Blog.Presentation
@@ -190,11 +207,91 @@ i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\service\se
 i:{00000000-0000-0000-0000-000000000000}:Service
 ++20211230044752_InitialData.Designer.cs
 i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\20211230044752_initialdata.designer.cs
+++20220104135005_CreateIdentityTables.Designer.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\20220104135005_createidentitytables.designer.cs
+++20220104140321_AddedRolesToDb.Designer.cs
+i:{066ae2f5-7c5a-4fbc-9b11-8f4d2422a6a7}:c:\users\ali\desktop\blogapi\blogapi\migrations\20220104140321_addedrolestodb.designer.cs
+++Service.Contracts
+i:{00000000-0000-0000-0000-000000000000}:Service.Contracts
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service.contracts\service.contracts.csproj
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\service.contracts\service.contracts.csproj
+++IArticleService.cs
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\iarticleservice.cs
+++IAuthenticationService.cs
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\iauthenticationservice.cs
+++ICategoryService.cs
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\icategoryservice.cs
+++IServiceManager.cs
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\iservicemanager.cs
+++ITagService.cs
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\itagservice.cs
+++Entities
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\entities\entities.csproj
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\entities\entities.csproj
+i:{00000000-0000-0000-0000-000000000000}:Entities
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\entities\
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\entities\entities.csproj
+++Shared
+i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\shared\shared.csproj
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\shared\shared.csproj
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\shared\shared.csproj
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\shared\shared.csproj
+i:{00000000-0000-0000-0000-000000000000}:Shared
+++DataShaping
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\datashaping\
+++ArticleService.cs
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\articleservice.cs
+++AuthenticationService.cs
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\authenticationservice.cs
+++CategoryService.cs
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\categoryservice.cs
+++ServiceManager.cs
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\servicemanager.cs
+++TagService.cs
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\tagservice.cs
+++DataShaper.cs
+i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\datashaping\datashaper.cs
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+i:{f157a345-a513-48e9-beb1-1d094758f721}:>1222
 ++Contracts
-i:{00000000-0000-0000-0000-000000000000}:Contracts
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\contracts\contracts.csproj
 i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\contracts\contracts.csproj
+i:{00000000-0000-0000-0000-000000000000}:Contracts
 i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\users\ali\desktop\blogapi\contracts\contracts.csproj
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\contracts\contracts.csproj
+++ActionFilters
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\actionfilters\
+++Controllers
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\
+++ArticlesController.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\articlescontroller.cs
+++AuthenticationController.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\authenticationcontroller.cs
+++CategoriesController.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\categoriescontroller.cs
+++CategoriesV2Controller.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\categoriesv2controller.cs
+++RootController.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\rootcontroller.cs
+++ModelBinders
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\modelbinders\
+++AssemblyReference.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\assemblyreference.cs
+++ValidateMediaTypeAttribute.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\actionfilters\validatemediatypeattribute.cs
+++ValidationFilterAttribute.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\actionfilters\validationfilterattribute.cs
+++ArrayModelBinder.cs
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\modelbinders\arraymodelbinder.cs
+++FluentValidation.AspNetCore (10.3.6)
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1227
+++Marvin.Cache.Headers (6.0.0)
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1236
+++Microsoft.AspNetCore.JsonPatch (6.0.1)
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1225
+++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1239
+++Microsoft.AspNetCore.Mvc.Versioning (5.0.0)
+i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1218
 ++IArticleLinks.cs
 i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\contracts\iarticlelinks.cs
 ++IArticleRepository.cs
@@ -212,48 +309,19 @@ i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\contracts\
 ++ITagRepository.cs
 i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\contracts\itagrepository.cs
 ++Microsoft.AspNetCore.Mvc.Abstractions (2.2.0)
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:>1246
-++Entities
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\entities\entities.csproj
-i:{00000000-0000-0000-0000-000000000000}:Entities
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\entities\entities.csproj
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\entities\entities.csproj
-++Shared
-i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:c:\users\ali\desktop\blogapi\shared\shared.csproj
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\shared\shared.csproj
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\shared\shared.csproj
-i:{00000000-0000-0000-0000-000000000000}:Shared
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\shared\shared.csproj
+i:{b56214a1-cdd8-496b-8280-6f5cacbf9d78}:>1207
+++LoggerManager.cs
+i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\users\ali\desktop\blogapi\loggerservice\loggermanager.cs
+++NLog.Extensions.Logging (5.0.0-rc1)
+i:{7a05b587-c790-4085-a56d-537f1344c665}:>1223
 ++ErrorModel
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\errormodel\
 ++Exceptions
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\exceptions\
 ++LinkModels
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\
-++Link.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\link.cs
-++LinkCollectionWrapper.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkcollectionwrapper.cs
-++LinkResourceBase.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkresourcebase.cs
-++LinkResponse.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkresponse.cs
 ++Models
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\
-++Article.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\article.cs
-++ArticleTag.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\articletag.cs
-++Category.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\category.cs
-++Entity.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\entity.cs
-++Paragraph.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\paragraph.cs
-++ShapedEntity.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\shapedentity.cs
-++Tag.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\tag.cs
 ++ErrorDetails.cs
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\errormodel\errordetails.cs
 ++ArticleForUpdateDtoJsonDocumentExeption.cs
@@ -282,10 +350,38 @@ i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\e
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\exceptions\maxcreatedaterangebadrequestexeption.cs
 ++NotFoundException.cs
 i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\exceptions\notfoundexception.cs
+++Link.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\link.cs
+++LinkCollectionWrapper.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkcollectionwrapper.cs
+++LinkParameters.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkparameters.cs
+++LinkResourceBase.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkresourcebase.cs
+++LinkResponse.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkresponse.cs
+++Article.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\article.cs
+++ArticleTag.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\articletag.cs
+++Category.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\category.cs
+++Paragraph.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\paragraph.cs
+++Tag.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\tag.cs
+++User.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\user.cs
+++Microsoft.AspNetCore.Http.Abstractions (2.2.0)
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:>1221
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.1)
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:>1215
+++Entity.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\entities\entity.cs
+++ShapedEntity.cs
+i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\models\entities\shapedentity.cs
 ++Configuration
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\configuration\
-++RepositoryArticleExtention.cs
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\extensions\repositoryarticleextention.cs
 ++ArticleRepository.cs
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\articlerepository.cs
 ++CategoryRepository.cs
@@ -304,66 +400,22 @@ i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\configuration\articletagconfiguration.cs
 ++CategoryConfiguration.cs
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\configuration\categoryconfiguration.cs
+++RoleConfiguration.cs
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\configuration\roleconfiguration.cs
 ++TagConfiguration.cs
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\configuration\tagconfiguration.cs
+++RepositoryArticleExtention.cs
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\extensions\repositoryarticleextention.cs
+++Microsoft.EntityFrameworkCore (6.0.1)
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:>1220
+++System.Linq.Dynamic.Core (1.2.15)
+i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:>1226
 ++OrderQueryBuilder.cs
 i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:c:\users\ali\desktop\blogapi\repository\extensions\utility\orderquerybuilder.cs
-++Microsoft.EntityFrameworkCore (6.0.1)
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:>1160
-++System.Linq.Dynamic.Core (1.2.15)
-i:{8b578fef-a9b4-45f1-ab19-367351599fd5}:>1161
-++Service.Contracts
-i:{00000000-0000-0000-0000-000000000000}:Service.Contracts
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service.contracts\service.contracts.csproj
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\service.contracts\service.contracts.csproj
-++IArticleService.cs
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\iarticleservice.cs
-++ICategoryService.cs
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\icategoryservice.cs
-++IServiceManager.cs
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\iservicemanager.cs
-++ITagService.cs
-i:{294f0b05-5753-4ce5-90ea-2950ea5ab62c}:c:\users\ali\desktop\blogapi\service.contracts\itagservice.cs
-++DataShaping
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\datashaping\
-++DataShaper.cs
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\datashaping\datashaper.cs
-++ArticleService.cs
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\articleservice.cs
-++CategoryService.cs
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\categoryservice.cs
-++ServiceManager.cs
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\servicemanager.cs
-++TagService.cs
-i:{f157a345-a513-48e9-beb1-1d094758f721}:c:\users\ali\desktop\blogapi\service\tagservice.cs
-++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
-i:{f157a345-a513-48e9-beb1-1d094758f721}:>1179
-++ActionFilters
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\actionfilters\
-++ValidateMediaTypeAttribute.cs
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\actionfilters\validatemediatypeattribute.cs
-++ValidationFilterAttribute.cs
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\actionfilters\validationfilterattribute.cs
-++Controllers
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\
-++ArticlesController.cs
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\articlescontroller.cs
-++CategoriesController.cs
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\controllers\categoriescontroller.cs
-++ModelBinders
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\modelbinders\
-++AssemblyReference.cs
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\assemblyreference.cs
-++ArrayModelBinder.cs
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:c:\users\ali\desktop\blogapi\blog.presentation\modelbinders\arraymodelbinder.cs
-++FluentValidation.AspNetCore (10.3.6)
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1172
-++Microsoft.AspNetCore.JsonPatch (6.0.1)
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1171
-++Microsoft.AspNetCore.Mvc.Core (2.2.5)
-i:{bebc53ee-5b56-4842-ad7c-76963cd8ab04}:>1174
 ++DataTransferObjects
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\datatransferobjects\
+++RequestFeatures
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\requestfeatures\
 ++ArticleDto.cs
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\datatransferobjects\articledto.cs
 ++ArticleForCreationDto.cs
@@ -378,19 +430,11 @@ i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\dat
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\datatransferobjects\categoryforcreationdto.cs
 ++CategoryForUpdateDto.cs
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\datatransferobjects\categoryforupdatedto.cs
-++RequestFeatures
-i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\requestfeatures\
+++UserForRegistrationDto.cs
+i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\datatransferobjects\userforregistrationdto.cs
 ++ArticleParameters.cs
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\requestfeatures\articleparameters.cs
 ++MetaData.cs
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\requestfeatures\metadata.cs
 ++RequestParameters.cs
 i:{43b40605-b5a4-4ddd-bf39-e682ee380943}:c:\users\ali\desktop\blogapi\shared\requestfeatures\requestparameters.cs
-++LoggerManager.cs
-i:{7a05b587-c790-4085-a56d-537f1344c665}:c:\users\ali\desktop\blogapi\loggerservice\loggermanager.cs
-++NLog.Extensions.Logging (5.0.0-rc1)
-i:{7a05b587-c790-4085-a56d-537f1344c665}:>1163
-++LinkParameters.cs
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:c:\users\ali\desktop\blogapi\entities\linkmodels\linkparameters.cs
-++Microsoft.AspNetCore.Http.Abstractions (2.2.0)
-i:{c9960fa1-c7d2-4924-84c5-94dc2b87eb03}:>1252

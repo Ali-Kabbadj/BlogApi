@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
 using Contracts;
+using Entities.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Service.Contracts;
-using Shared.DataTransferObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Service
 {
@@ -15,8 +12,9 @@ namespace Service
         private readonly Lazy<IArticleService> _articleService;
         private readonly Lazy<ICategoryService> _categoryService;
         private readonly Lazy<ITagService> _tagService;
+        private readonly Lazy<IAuthenticationService> _authenticationService;
 
-        public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger , IMapper mapper ,IArticleLinks articleLinks)
+        public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger , IMapper mapper ,IArticleLinks articleLinks,UserManager<User> userManager,IConfiguration configuration,RoleManager<IdentityRole> roleManager )
         {
             _articleService = new Lazy<IArticleService>(() => new
                 ArticleService(repositoryManager, logger ,mapper,articleLinks));
@@ -27,13 +25,20 @@ namespace Service
             _tagService = new Lazy<ITagService>(() => new
                 TagService(repositoryManager, logger , mapper));
 
-         
+           _authenticationService = new Lazy<IAuthenticationService>(() =>new 
+            AuthenticationService(logger, mapper, userManager, configuration ,roleManager));
 
         }
+
+         
+
+        
 
         public IArticleService ArticleService => _articleService.Value;
         public ICategoryService CategoryService => _categoryService.Value;
         public ITagService TagService => _tagService.Value;
+
+        public IAuthenticationService AuthenticationService => _authenticationService.Value;
 
 
 

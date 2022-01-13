@@ -21,7 +21,7 @@ namespace Repository
 
         public async Task<Category> GetCategoryAsync(Guid categoryId, bool trackChanges)=>
             await FindByCondition(c => c.Id.Equals(categoryId), trackChanges)
-            .SingleAsync();
+            .SingleOrDefaultAsync();
         
         public void CreateCategoryAsync(Category category) => Create(category);
 

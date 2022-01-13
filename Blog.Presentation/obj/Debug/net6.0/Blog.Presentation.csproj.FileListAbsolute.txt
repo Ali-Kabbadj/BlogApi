@@ -17,3 +17,4 @@ C:\Users\ali\Desktop\BlogApi\Blog.Presentation\obj\Debug\net6.0\Blog.Presentatio
 C:\Users\ali\Desktop\BlogApi\Blog.Presentation\obj\Debug\net6.0\Blog.Presentation.dll
 C:\Users\ali\Desktop\BlogApi\Blog.Presentation\obj\Debug\net6.0\ref\Blog.Presentation.dll
 C:\Users\ali\Desktop\BlogApi\Blog.Presentation\obj\Debug\net6.0\Blog.Presentation.pdb
+C:\Users\ali\Desktop\BlogApi\Blog.Presentation\bin\Debug\net6.0\Blog.Presentation.xml

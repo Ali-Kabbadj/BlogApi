@@ -56,7 +56,7 @@ namespace Blog.Migrations
                         {
                             Id = new Guid("ab52df6b-5881-4e09-a4f6-959200b54376"),
                             CategoryId = new Guid("0e18c37c-2a15-44fc-ace9-73e15d2a5d03"),
-                            CreatedDate = new DateTime(2022, 1, 4, 15, 3, 20, 897, DateTimeKind.Local).AddTicks(2720),
+                            CreatedDate = new DateTime(2022, 1, 11, 10, 16, 33, 108, DateTimeKind.Local).AddTicks(4346),
                             Summary = "SummaryArticleOne",
                             Title = "TitleArticleOne"
                         },
@@ -64,7 +64,7 @@ namespace Blog.Migrations
                         {
                             Id = new Guid("1f16a542-b836-4152-893c-a0884baf210c"),
                             CategoryId = new Guid("0e18c37c-2a15-44fc-ace9-73e15d2a5d03"),
-                            CreatedDate = new DateTime(2022, 1, 4, 15, 3, 20, 897, DateTimeKind.Local).AddTicks(2803),
+                            CreatedDate = new DateTime(2022, 1, 11, 10, 16, 33, 108, DateTimeKind.Local).AddTicks(4384),
                             Summary = "SummaryArticleOne",
                             Title = "TitleArticleOne"
                         },
@@ -72,7 +72,7 @@ namespace Blog.Migrations
                         {
                             Id = new Guid("eea19341-1122-4ba8-b94c-404348adcc00"),
                             CategoryId = new Guid("02a95519-a82b-4b57-8c51-05d261e27c05"),
-                            CreatedDate = new DateTime(2022, 1, 4, 15, 3, 20, 897, DateTimeKind.Local).AddTicks(2808),
+                            CreatedDate = new DateTime(2022, 1, 11, 10, 16, 33, 108, DateTimeKind.Local).AddTicks(4388),
                             Summary = "SummaryArticleOne",
                             Title = "TitleArticleOne"
                         },
@@ -80,7 +80,7 @@ namespace Blog.Migrations
                         {
                             Id = new Guid("d6bbcf6b-a935-46cc-9359-f52b6f2f11f1"),
                             CategoryId = new Guid("02a95519-a82b-4b57-8c51-05d261e27c05"),
-                            CreatedDate = new DateTime(2022, 1, 4, 15, 3, 20, 897, DateTimeKind.Local).AddTicks(2811),
+                            CreatedDate = new DateTime(2022, 1, 11, 10, 16, 33, 108, DateTimeKind.Local).AddTicks(4392),
                             Summary = "SummaryArticleOne",
                             Title = "TitleArticleOne"
                         },
@@ -88,7 +88,7 @@ namespace Blog.Migrations
                         {
                             Id = new Guid("bb296082-a5e4-4b5c-99e3-4595144be332"),
                             CategoryId = new Guid("02a95519-a82b-4b57-8c51-05d261e27c05"),
-                            CreatedDate = new DateTime(2022, 1, 4, 15, 3, 20, 897, DateTimeKind.Local).AddTicks(2815),
+                            CreatedDate = new DateTime(2022, 1, 11, 10, 16, 33, 108, DateTimeKind.Local).AddTicks(4395),
                             Summary = "SummaryArticleOne",
                             Title = "TitleArticleOne"
                         });
@@ -329,6 +329,12 @@ namespace Blog.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RefreshTokenExpiryTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -381,22 +387,22 @@ namespace Blog.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "bc7bda4e-35e1-42a4-abee-2846cd098601",
-                            ConcurrencyStamp = "4dcf9d1f-d86c-43e1-978a-8096e19aaee5",
+                            Id = "6eaf69ec-5866-4daa-9977-6e8eb65ea25f",
+                            ConcurrencyStamp = "6ea17308-09ca-4702-8208-b332c83bbe10",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         },
                         new
                         {
-                            Id = "81edfecf-f9dc-4e36-bc8e-d6be270a7aa8",
-                            ConcurrencyStamp = "417fc5c7-5c81-4db0-83bd-d1df36b0ccec",
+                            Id = "6e06a4c0-0e9c-4f3c-b66b-06b3f6ab958b",
+                            ConcurrencyStamp = "3d10364b-7faa-4988-b0a5-dbeb91a2c7b2",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         },
                         new
                         {
-                            Id = "f8e145f6-4568-43d3-9756-384ba74d4b8f",
-                            ConcurrencyStamp = "827549e3-0dbb-4695-922e-f358996b06d2",
+                            Id = "84bd954c-b94e-4037-a895-fd1c9bba8632",
+                            ConcurrencyStamp = "281c5299-89fa-4b24-b070-ea74f61cd7fe",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });

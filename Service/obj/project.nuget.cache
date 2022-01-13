@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ojHitvHDPcvTZT2ohVVrrXjllhiDlxHDQibzOdXkpjW+ZVCZateOdKccBPem0kLLAlo3A76WQxDVHo5o7kWwOQ==",
+  "dgSpecHash": "rTKC5/YRBjn7B1KH6L8x6ZG/GJ5IB5kJ7RWL7ipeG9RcxFcGhPPCTukPUSDnvPlnZ24p3S8fzNXpOgJQaSaMUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.1\\microsoft.extensions.identity.core.6.0.1.nupkg.sha512",

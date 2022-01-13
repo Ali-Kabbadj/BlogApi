@@ -2,6 +2,7 @@
 using Contracts;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.Responses;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 
@@ -24,25 +25,30 @@ namespace Service
         private async Task<Category> GetCategoryAndCheckIfItExists(Guid id, bool trackChanges)
         {
             var company = await _repository.CategoryRepository.GetCategoryAsync(id, trackChanges);
-            if (company is null)
-                throw new CategoryNotFoundException(id);
             return company;
         }
 
 
-        public async Task<CategoryDto> GetCategoryAsync(Guid categoryId, bool trackChanges)
+        public async Task<ApiBaseResponse> GetCategoryAsync(Guid categoryId, bool trackChanges)
         {
             var category = await GetCategoryAndCheckIfItExists(categoryId,trackChanges);
+            if(category is null)
+                return new CategoryNotFoundResponse(categoryId);
+
             var categoryDto = _mapper.Map<CategoryDto>(category);
-            return categoryDto;
+
+            return new ApiOkResponse<CategoryDto>(categoryDto);
         }
 
-        public async Task<IEnumerable<CategoryDto>> GetAllCategoriesAsync(bool trackChanges)
+
+        public async Task<ApiBaseResponse> GetAllCategoriesAsync(bool trackChanges)
         {
             var categories = await _repository.CategoryRepository.GetAllCategoriesAsync(trackChanges);
             var categoriesDot = _mapper.Map<IEnumerable<CategoryDto>>(categories);
-            return categoriesDot;
+
+            return new ApiOkResponse<IEnumerable<CategoryDto>>(categoriesDot);
         }
+
 
         public async Task<IEnumerable<CategoryDto>> GetByIdsAsync(IEnumerable<Guid> ids, bool trackChanges)
         {

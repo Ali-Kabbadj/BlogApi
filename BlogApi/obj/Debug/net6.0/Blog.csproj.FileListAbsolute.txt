@@ -95,3 +95,8 @@ C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\Blog.dll
 C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\ref\Blog.dll
 C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\Blog.pdb
 C:\Users\ali\Desktop\BlogApi\BlogApi\obj\Debug\net6.0\Blog.genruntimeconfig.cache
+C:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ali\Desktop\BlogApi\BlogApi\bin\Debug\net6.0\Blog.Presentation.xml

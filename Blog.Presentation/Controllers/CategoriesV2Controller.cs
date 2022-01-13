@@ -10,6 +10,7 @@ namespace Blog.Presentation.Controllers
 {
     [Route("api/categories")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v2")]
     public class CategoriesV2Controller : ControllerBase
     {
         private readonly IServiceManager _service;

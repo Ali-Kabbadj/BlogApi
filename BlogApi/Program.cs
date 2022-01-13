@@ -44,7 +44,12 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddAuthentication();
 builder.Services.ConfigureIdentity();
+
 builder.Services.ConfigureJWT(builder.Configuration);
+builder.Services.AddJwtConfiguration(builder.Configuration);
+
+builder.Services.ConfigureSwagger();
+
 
 builder.Services.AddControllers(config =>
 {
@@ -71,6 +76,12 @@ app.UseStaticFiles();
 app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
 	ForwardedHeaders = ForwardedHeaders.All
+});
+
+app.UseSwagger(); 
+app.UseSwaggerUI(s => {
+	s.SwaggerEndpoint("/swagger/v1/swagger.json", "Code Maze API v1"); 
+	s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
 });
 
 app.UseIpRateLimiting();

@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>Blog</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\ali\Desktop\BlogApi\BlogApi\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

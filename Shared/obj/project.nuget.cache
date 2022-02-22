@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ao3+eRaWCL+R2xMUs2zTGESpHbi59pl/dUg2+PUK/P9WLvQdq4fjN2c7MhufznIm62LV2ux+MqoeWioH3/uXQg==",
+  "dgSpecHash": "4C8NwxSoUAO4Cd+nOHFymRowGU6ZoKIKLh7O7lcr03hjUDHySG5QUczVMggiK6Xyke+ptkyNA2IKDK4zj/xeIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

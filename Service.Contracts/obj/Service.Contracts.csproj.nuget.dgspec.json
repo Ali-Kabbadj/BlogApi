@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {}
+    "C:\\Users\\ali\\Documents\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj": {
+    "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj"
+              "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj"
               }
             }
           }
@@ -68,18 +68,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Users\\ali\\Documents\\BlogApi\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
+        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,11 +96,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Entities\\Entities.csproj"
+              "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj"
+              "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj"
               }
             }
           }
@@ -129,18 +129,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
+    "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {}
+    "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj": {
+    "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Desktop\\BlogApi\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,7 +13,7 @@ namespace Blog.Presentation.Controllers
     [Route("api/categories")]
     [ApiController]
     [ApiExplorerSettings(GroupName = "v1")]
-    public class CategoriesController : ApiControllerBase
+    public class CategoriesController : ControllerBase
     {
         private readonly IServiceManager _service;
         public CategoriesController(IServiceManager service) => _service = service;
@@ -41,9 +41,9 @@ namespace Blog.Presentation.Controllers
         public async Task<IActionResult> GetCategory(Guid id)
         {
             var baseResult = await _service.CategoryService.GetCategoryAsync(id, trackChanges: false);
-            if(!baseResult.Success){
-                return ProcessError(baseResult);
-            }
+            //if(!baseResult.Success){
+            //    return ProcessError(baseResult);
+            //}
             var category =  baseResult.GetResult<CategoryDto>();
             return Ok(category);
         }

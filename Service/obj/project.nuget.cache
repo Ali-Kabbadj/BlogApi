@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rTKC5/YRBjn7B1KH6L8x6ZG/GJ5IB5kJ7RWL7ipeG9RcxFcGhPPCTukPUSDnvPlnZ24p3S8fzNXpOgJQaSaMUQ==",
+  "dgSpecHash": "z5/ONX9kClYGUHqihvP8oH9z/F1e5bB5G/nJz6F00U01TIozGagcSsxmpVs3VSBAtZab60zqTATkaJeWVJMAqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\Desktop\\BlogApi\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\ali\\Documents\\BlogApi\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

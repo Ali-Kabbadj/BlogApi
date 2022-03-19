@@ -8,5 +8,6 @@ namespace Contracts
     public interface IArticleLinks
     {
         LinkResponse TryGenerateLinks(IEnumerable<ArticleDto> articlesDto, string fields, Guid categoryId, HttpContext httpContext);
+        LinkResponse TryGenerateLinksWithoutCategoryId(IEnumerable<ArticleDto> articlesDto, string fields, HttpContext httpContext);
     }
 }

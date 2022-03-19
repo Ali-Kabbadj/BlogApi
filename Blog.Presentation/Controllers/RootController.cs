@@ -30,7 +30,11 @@ namespace Blog.Presentation.Controllers
                     new Link
                     {
                         Href = _linkGenerator.GetUriByName(HttpContext, "CreateCategory", new{}),Rel = "create_category", Method = "POST"
-                    }
+                    },
+                    new Link
+                    {
+                        Href = _linkGenerator.GetUriByName(HttpContext, "GetAllActicles", new{}),Rel = "articles",Method = "GET"
+                    },
                 };
                 return Ok(list);
             }

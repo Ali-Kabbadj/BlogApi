@@ -17,7 +17,7 @@ namespace Repository
             .FirstAsync();
         
 
-        public async Task<PagedList<Article>> GetAllArticlesAsync(Guid categoryId, ArticleParameters articleParameters, bool trackChanges)
+        public async Task<PagedList<Article>> GetAllArticlesInCategoryAsync(Guid categoryId, ArticleParameters articleParameters, bool trackChanges)
         {
             var articles = await FindByCondition(e => e.CategoryId.Equals(categoryId) ,trackChanges)
             .FilterArticles(articleParameters.MinCreatedDate, articleParameters.MaxCreatedDate )  
@@ -27,6 +27,20 @@ namespace Repository
             .Take(articleParameters.PageSize)
             .ToListAsync();
             var count = await FindByCondition(e => e.CategoryId.Equals(categoryId), trackChanges).CountAsync();
+            return new PagedList<Article>(articles, count,articleParameters.PageNumber, articleParameters.PageSize);
+        }
+
+
+        public async Task<PagedList<Article>> GetAllArticlesAsync(ArticleParameters articleParameters, bool trackChanges)
+        {
+            var articles =await FindAll(trackChanges)
+            .FilterArticles(articleParameters.MinCreatedDate, articleParameters.MaxCreatedDate )  
+            .Search(articleParameters.SearchTerm)
+            .OrderBy(e => e.CreatedDate)
+            .Skip((articleParameters.PageNumber - 1) * articleParameters.PageSize)
+            .Take(articleParameters.PageSize)
+            .ToListAsync();
+            var count = await FindAll(trackChanges).CountAsync();
             return new PagedList<Article>(articles, count,articleParameters.PageNumber, articleParameters.PageSize);
         }
 

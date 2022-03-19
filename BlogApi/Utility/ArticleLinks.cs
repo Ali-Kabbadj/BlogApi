@@ -30,6 +30,16 @@ public class ArticleLinks : IArticleLinks
 		return ReturnShapedArticles(shapedArticles);
 	}
 
+	public LinkResponse TryGenerateLinksWithoutCategoryId(IEnumerable<ArticleDto> articlesDto, string fields, HttpContext httpContext)
+	{
+		var shapedArticles = ShapeData(articlesDto, fields);
+
+		if (ShouldGenerateLinks(httpContext))
+			return ReturnLinkdedArticlesWithoutCategoryId(articlesDto, fields, httpContext, shapedArticles);
+
+		return ReturnShapedArticles(shapedArticles);
+	}
+
 	private List<Entity> ShapeData(IEnumerable<ArticleDto> articlesDto, string fields) =>
 		_dataShaper.ShapeData(articlesDto, fields)
 			.Select(e => e.Entity)
@@ -64,6 +74,24 @@ public class ArticleLinks : IArticleLinks
 		return new LinkResponse { HasLinks = true, LinkedEntities = linkedArticles };
 	}
 
+
+	private LinkResponse ReturnLinkdedArticlesWithoutCategoryId(IEnumerable<ArticleDto> articlesDto,
+		string fields, HttpContext httpContext, List<Entity> shapedArticles)
+	{
+		var articleDtoList = articlesDto.ToList();
+
+		for (var index = 0; index < articleDtoList.Count(); index++)
+		{
+			var articleLinks = CreateLinksForArticleWithoutCategoryId(httpContext, articleDtoList[index].Id, fields);
+			shapedArticles[index].Add("Links", articleLinks);
+		}
+
+		var articleCollection = new LinkCollectionWrapper<Entity>(shapedArticles);
+		var linkedArticles = CreateLinksForArticles(httpContext, articleCollection);
+
+		return new LinkResponse { HasLinks = true, LinkedEntities = linkedArticles };
+	}
+
 	private List<Link> CreateLinksForArticle(HttpContext httpContext, Guid categoryId, Guid id, string? fields = "")
 	{
 		var links = new List<Link>
@@ -72,6 +100,15 @@ public class ArticleLinks : IArticleLinks
 				new Link(_linkGenerator.GetUriByAction(httpContext, "DeleteArticleInCategory", values: new { categoryId, id }),"delete_article","DELETE"),
 				new Link(_linkGenerator.GetUriByAction(httpContext, "UpdateArticleInCategory", values: new { categoryId, id }),"update_article","PUT"),
 				new Link(_linkGenerator.GetUriByAction(httpContext, "PartiallyUpdateArticleInCategory", values: new { categoryId, id }),"partially_update_article","PATCH")
+			};
+		return links;
+	}
+
+	private List<Link> CreateLinksForArticleWithoutCategoryId(HttpContext httpContext, Guid id, string? fields = "")
+	{
+		var links = new List<Link>
+			{
+				new Link(_linkGenerator.GetUriByAction(httpContext, "GetArticle", values: new { id, fields }),"self","GET")
 			};
 		return links;
 	}

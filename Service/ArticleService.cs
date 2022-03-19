@@ -106,7 +106,7 @@ namespace Service
         }
 
 
-        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesAsync(Guid categoryId, LinkParameters linkParameters, bool trackChanges)
+        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesInCategoryAsync(Guid categoryId, LinkParameters linkParameters, bool trackChanges)
         {
             if (!linkParameters.ArticleParameters.ValidCreatedDateRange)
                 throw new MaxCreateDateRangeBadRequestExeption();
@@ -114,11 +114,29 @@ namespace Service
             await CheckIfCategoryExists(categoryId, trackChanges);
 
             var articlesWithMetaData = await _repository.ArticleRepository
-                .GetAllArticlesAsync(categoryId, linkParameters.ArticleParameters,trackChanges);
+                .GetAllArticlesInCategoryAsync(categoryId, linkParameters.ArticleParameters,trackChanges);
 
             var articlesDto = _mapper.Map<IEnumerable<ArticleDto>>(articlesWithMetaData);
 
             var links = _articleLinks.TryGenerateLinks(articlesDto,linkParameters.ArticleParameters.Fields,categoryId, linkParameters.Context);
+            
+            return (linkResponse: links, metaData: articlesWithMetaData.MetaData);
+
+        }
+
+
+         public async Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesAsync(LinkParameters linkParameters, bool trackChanges)
+        {
+            if (!linkParameters.ArticleParameters.ValidCreatedDateRange)
+                throw new MaxCreateDateRangeBadRequestExeption();
+
+
+            var articlesWithMetaData = await _repository.ArticleRepository
+                .GetAllArticlesAsync(linkParameters.ArticleParameters,trackChanges);
+
+            var articlesDto = _mapper.Map<IEnumerable<ArticleDto>>(articlesWithMetaData);
+
+            var links = _articleLinks.TryGenerateLinksWithoutCategoryId(articlesDto,linkParameters.ArticleParameters.Fields, linkParameters.Context);
             
             return (linkResponse: links, metaData: articlesWithMetaData.MetaData);
 

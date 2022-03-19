@@ -8,7 +8,8 @@ namespace Service.Contracts
 {
     public interface IArticleService
     {
-        Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesAsync (Guid categoryId,LinkParameters linkParameters,bool trackChanges);
+        Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesAsync (LinkParameters linkParameters,bool trackChanges);
+        Task<(LinkResponse linkResponse, MetaData metaData)> GetAllArticlesInCategoryAsync (Guid categoryId,LinkParameters linkParameters,bool trackChanges);
         Task<ArticleDto> GetArticleAsync(Guid articleId,Guid categoryId , bool trackChanges);
         Task<ArticleDto> CreateArticleForCategoryAsync(Guid categoryId, ArticleForCreationDto articleForCreation, bool trackChanges);
         Task DeleteArticleInCategoryAsync(Guid categoryId ,Guid Id , bool trackChanges);

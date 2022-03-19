@@ -18,7 +18,19 @@ namespace Blog.Presentation.Controllers
         public ArticlesController(IServiceManager service) => _service = service;
 
 
-      
+        [Route("/api/articles")]
+        [HttpGet]
+        [HttpHead]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
+        public async Task<IActionResult> GetAllActicles([FromQuery] ArticleParameters articleparams)
+        {
+
+            var linkParams = new LinkParameters(articleparams, HttpContext);
+            var result = await _service.ArticleService.GetAllArticlesAsync(linkParams, trackChanges: false);
+            Response.Headers.Add("X-Pagination",JsonSerializer.Serialize(result.metaData));
+            return result.linkResponse.HasLinks ? Ok(result.linkResponse.LinkedEntities) :Ok(result.linkResponse.ShapedEntities);
+
+        }
 
 
         [HttpGet]
@@ -28,7 +40,7 @@ namespace Blog.Presentation.Controllers
         {
 
             var linkParams = new LinkParameters(articleparams, HttpContext);
-            var result = await _service.ArticleService.GetAllArticlesAsync(categoryId,linkParams, trackChanges: false);
+            var result = await _service.ArticleService.GetAllArticlesInCategoryAsync(categoryId,linkParams, trackChanges: false);
             Response.Headers.Add("X-Pagination",JsonSerializer.Serialize(result.metaData));
             return result.linkResponse.HasLinks ? Ok(result.linkResponse.LinkedEntities) :Ok(result.linkResponse.ShapedEntities);
 

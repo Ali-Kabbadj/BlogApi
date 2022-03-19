@@ -150,7 +150,7 @@ namespace Blog.Extensions
                 new RateLimitRule
                 {
                     Endpoint = "*",
-                    Limit = 10,
+                    Limit = 100,
                     Period = "5m"
                 }
             };

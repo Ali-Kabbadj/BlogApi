@@ -5785,11 +5785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\BlogApi\\Blog.csproj",
+      "projectUniqueName": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\BlogApi\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\BlogApi\\Blog.csproj",
+      "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\BlogApi\\Blog.csproj",
       "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\BlogApi\\obj\\",
+      "outputPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\BlogApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5806,17 +5806,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ali\\Documents\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj": {
-              "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj"
+            "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Blog.Presentation\\Blog.Presentation.csproj"
             },
-            "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\LoggerService.csproj"
             },
-            "C:\\Users\\ali\\Documents\\BlogApi\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Repository\\Repository.csproj"
+            "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\ali\\Documents\\BlogApi\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Service\\Service.csproj"
+            "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Service\\Service.csproj"
             }
           }
         }

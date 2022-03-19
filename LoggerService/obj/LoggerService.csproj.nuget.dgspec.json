@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\LoggerService.csproj": {}
+    "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\LoggerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\Documents\\BlogApi\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj"
+              "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj"
+              "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj": {
+    "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj"
+              "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\LoggerService\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,8 +163,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ali\\Documents\\BlogApi\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Contracts\\Contracts.csproj"
+              "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -203,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
+    "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -836,11 +836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ali\\Documents\\BlogApi\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -857,8 +857,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\ali\\Documents\\BlogApi\\Shared\\Shared.csproj"
+            "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\ali\\Desktop\\My Projects\\BlogApi\\Shared\\Shared.csproj"
             }
           }
         }
